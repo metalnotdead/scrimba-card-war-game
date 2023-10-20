@@ -1,0 +1,51 @@
+body {
+    background-image: url("./img/table.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Exo 2", sans-serif;
+    align-items: center;
+    color: white;
+}
+
+button{
+    background-color: #fff100;
+    cursor: pointer;
+    border: none;
+}
+
+button#new-deck {
+    align-self: flex-start;
+    padding: 5px;
+
+margin-bottom: 50px;
+}
+button.draw{
+    font-size: 1.2em;
+    padding: 5px;
+    align-self: stretch;
+}
+
+div.card-slot{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5/7);
+    margin-bottom: 50px;
+}
+
+div.card-slot:nth-last-of-type(1){
+    margin-bottom: 50px;
+}
+img.card{
+    width: 100%;
+    height: 100%;
+}
+
+#winner-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
